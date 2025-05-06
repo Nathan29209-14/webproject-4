@@ -1,0 +1,92 @@
+body {
+  background-color: #f0f0f0;
+}
+
+nav {
+  border: 2px solid rgb(0, 0, 0); /* navbar border */
+  padding: 10px;
+  background-color: #333; /* navbar background color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* to align items to the center */
+  transition: background-color 0.3s ease, transform 0.3s ease-in-out; /* Added transition for smooth background-color and scale */
+  position: sticky;
+}
+
+nav:hover {
+  background-color: #0051ff; /* Background color changes on hover */
+  transform: scale(1); /* Slightly scale up the navbar */
+}
+
+/* Add hover effect for individual navbar links */
+nav a:hover {
+  color: #ffebeb; /* Red color on hover for individual links */
+  background-color: #a67c52; /* Background color change on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white; /* Change the font size and style and color */
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+/* Hover style for navbar links */
+a:hover {
+  color: #2f00ff; /* Change text color to red on hover */
+  background-color: #ffffff; /* Background color on hover */
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.a1234 {
+  position: relative;
+}
+
+#contact1 {
+  background-color: bisque;
+}
+
+.link-gold {
+  font-size: small;
+  color: rgb(0, 0, 0);
+}
+
+#left {
+  float: left;
+}
+
+.header-title {
+  /* change the text and color for the title */
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.typography1 {
+  font-size: 18px; /* Standard size for paragraphs */
+  font-weight: 400;
+  line-height: 1.6;
+  color: #444; /* Darker gray for better readability */
+  float: right;
+}

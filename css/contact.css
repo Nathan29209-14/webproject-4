@@ -1,0 +1,82 @@
+/* Name: Nathan senanayake 
+
+Course: PTEC 
+
+Teacher:  A. Hoitink
+
+School: Ptc 
+
+Date Last Modified: May 6 */
+
+/* Set dark background for everything */
+* {
+  background-color: #3b3b47;
+}
+
+/* Style the big title at the top */
+h1 {
+  color: white;
+  padding-top: 10px; /* Space above the title */
+  text-align: center; /* Center the text */
+  font-size: 60px; /* Make the text big */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Style the input boxes */
+input {
+  background-color: white; /* White background */
+  width: 70%; /* Set width */
+  margin-left: 12%; /* Move it to the center */
+  font-size: 20px;
+  padding: 16px 16px; /* Add space inside the box */
+  border-radius: 10px; /* Make corners round */
+  border-color: black;
+  margin-bottom: 20px; /* Space below the input */
+}
+
+/* Style the text area box (for longer text) */
+textarea {
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Change input border when clicked */
+input:focus-within {
+  outline: none; /* Remove blue glow */
+  border-color: black;
+  border-width: 3px;
+}
+
+/* Change textarea border when clicked */
+textarea:focus-within {
+  outline: none;
+  border-color: #5bd183; /* Green border */
+  border-width: 3px;
+}
+
+/* Style the button */
+button {
+  border-color: white;
+  border-radius: 20px; /* Round edges */
+  border-color: black;
+  font-size: 22px;
+  padding: 10px 18px;
+  text-align: center;
+  display: flex;
+  margin: auto; /* Center the button */
+}
+
+/* Change button when mouse is on it */
+button:hover {
+  opacity: 80%; /* Make it a bit see-through */
+  cursor: pointer; /* Show pointer hand */
+}
