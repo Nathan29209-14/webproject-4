@@ -68,6 +68,10 @@ a:hover {
   background-color: bisque;
 }
 
+#contact-header {
+  background-color: #f0f0f0;
+}
+
 .link-gold {
   font-size: small;
   color: rgb(0, 0, 0);
@@ -84,9 +88,11 @@ a:hover {
 }
 
 .typography1 {
-  font-size: 18px; /* Standard size for paragraphs */
-  font-weight: 400;
-  line-height: 1.6;
-  color: #444; /* Darker gray for better readability */
+  font-family: "DIN", Arial, sans-serif;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+  font-size: 16px;
+  line-height: 2;
+  color: #414b59;
   float: right;
 }
