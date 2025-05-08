@@ -12,6 +12,8 @@ nav {
   align-items: center; /* to align items to the center */
   transition: background-color 0.3s ease, transform 0.3s ease-in-out; /* Added transition for smooth background-color and scale */
   position: sticky;
+  position: relative;
+  z-index: 10;
 }
 
 nav:hover {
