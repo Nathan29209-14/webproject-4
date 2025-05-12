@@ -10,7 +10,7 @@ Date Last Modified: May 6 */
 
 /* Set dark background for everything */
 * {
-  background-color: #3b3b47;
+  background-color: #f0f0f0;
 }
 
 /* Style the big title at the top */
@@ -31,7 +31,7 @@ input {
   font-size: 20px;
   padding: 16px 16px; /* Add space inside the box */
   border-radius: 10px; /* Make corners round */
-  border-color: black;
+  border-color: rgb(80, 80, 80);
   margin-bottom: 20px; /* Space below the input */
 }
 
