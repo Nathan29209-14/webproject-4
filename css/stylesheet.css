@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color:#f0f0f0;
+  background-color: #f0f0f0;
   color: rgb(0, 0, 0);
 }
 
@@ -20,7 +20,7 @@ nav {
   transition: background-color 0.3s ease, transform 0.3s ease-in-out; /* Added transition for smooth background-color and scale */
   position: sticky;
   z-index: 10;
-    position: absolute;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 11px 20px;
@@ -47,9 +47,9 @@ ul {
   margin: 0;
   display: flex;
   gap: 20px;
-    list-style: none;
+  list-style: none;
   justify-content: center;
-    display: flex;
+  display: flex;
 }
 
 li {
@@ -119,7 +119,6 @@ a:hover {
   float: right;
 }
 
-
 .hero-text {
   position: absolute;
   bottom: 250px;
@@ -148,16 +147,10 @@ a:hover {
   border-radius: 10px;
 }
 
-
 .content::after {
   display: block;
   clear: both;
 }
-
-
-
-
-
 
 .section {
   text-align: center;
@@ -211,4 +204,3 @@ a:hover {
 .card:hover {
   transform: scale(1.05);
 }
-

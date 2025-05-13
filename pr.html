@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn about Naawi-Oodena" />
+    <title>Naawi-Oodena</title>
+    <link
+      rel="icon"
+      href="images/TREATY-ONE-DEV-CORP-LOGO-2019.png"
+      sizes="128x128"
+      type="image/png" />
+    <style>
+      /* Base Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+
+      /* Hero Section */
+      .hero {
+        position: relative;
+        height: 80vh;
+        background: url(images/hfuture2e.png) no-repeat center center/cover;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 5%;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin-left: 20px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      }
+
+      /* Page Layout */
+      .page-container {
+        display: flex;
+        min-height: calc(100vh - 80vh);
+      }
+
+      /* Side Menu */
+      .side-menu {
+        width: 250px;
+        background-color: #3b3b47; /* Dark grey */
+        padding: 20px;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+      }
+
+      .side-menu h3 {
+        color: #5bd183; /* Green accent */
+        margin-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #5bd183;
+      }
+
+      .side-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 25px 0;
+      }
+
+      .side-menu li {
+        margin-bottom: 10px;
+      }
+
+      .side-menu a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: all 0.3s;
+      }
+
+      .side-menu a:hover {
+        background-color: #5bd183;
+        color: #3b3b47;
+      }
+
+      /* Main Content */
+      .main-content {
+        flex: 1;
+        padding: 30px;
+        max-width: 900px;
+      }
+
+      /* Existing Content Styles */
+      .right {
+        float: right;
+        transition: all 0.3s;
+        margin: 0 0 20px 30px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        max-width: 40%;
+        height: auto;
+      }
+
+      .right:hover {
+        transform: scale(1.05);
+      }
+
+      .typography1 {
+        line-height: 1.6;
+      }
+
+      .link-gold {
+        color: gold;
+        text-decoration: none;
+      }
+
+      /* Contact Form */
+      .contact1 {
+        margin-top: 30px;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        background-color: #3b3b47;
+        color: white;
+        padding: 15px;
+        width: 100%;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .page-container {
+          flex-direction: column;
+        }
+
+        .side-menu {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+
+        .right {
+          float: none;
+          display: block;
+          margin: 0 auto 20px;
+          max-width: 100%;
+        }
+
+        iframe {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HERO section with navbar and background -->
+    <div class="hero">
+      <nav>
+        <a href="index.html">
+          <img
+            src="images/TREATY-ONE-DEV-CORP-LOGO-2019.png"
+            alt="logo"
+            height="100"
+            width="100" />
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Communities.html">Communities</a></li>
+          <li><a href="Historical.html">Historical</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-text">
+        <h4>Communities</h4>
+        <p>The heart of the Treaty 1 community in Winnipeg.</p>
+      </div>
+    </div>
+
+    <!-- Page Container with Side Menu and Content -->
+    <div class="page-container">
+      <!-- Side Menu -->
+      <nav class="side-menu">
+        <h3>Main Menu</h3>
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#communities">Communities</a></li>
+          <li><a href="#development">Development Plans</a></li>
+          <li><a href="#news">News & Updates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <h3>Quick Links</h3>
+        <ul>
+          <li>
+            <a href="https://treaty1.ca" target="_blank">Treaty One Nation</a>
+          </li>
+          <li>
+            <a href="https://winnipeg.ca" target="_blank">City of Winnipeg</a>
+          </li>
+        </ul>
+
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Development Plan (PDF)</a></li>
+          <li><a href="#">Community FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <!-- Content section -->
+        <section id="communities">
+          <div style="background-color: whitesmoke">
+            <h2 class="header-title" tabindex="12">Communities</h2>
+          </div>
+
+          <p class="typography1" tabindex="12">
+            <img
+              class="right"
+              src="images/unnamed.png"
+              alt="Naawi-Oodena Workforce Initiative - Treaty One"
+              width="250px"
+              height="250px" />
+            "Treaty 1 is made up of seven First Nations: Brokenhead, Long Plain,
+            Peguis, Roseau River, Sagkeeng, Sandy Bay, and Swan Lake. These
+            communities have their own histories and cultures but work together
+            to improve their lives and the region. They focus on projects that
+            create jobs, protect the environment, and keep their traditions
+            alive. Naawi-Oodena is one example of this work, aiming to provide
+            homes, businesses, and other services to help both Indigenous and
+            non-Indigenous people live better lives together."
+          </p>
+        </section>
+
+        <figcaption>
+          <a
+            class="link-gold"
+            tabindex="12"
+            href="https://treaty1.ca/nowi/"
+            target="_blank"
+            >Source for image</a
+          >
+        </figcaption>
+        <a
+          class="link-gold"
+          tabindex="12"
+          href="https://www.clc-sic.ca/real-estate/naawi-oodena"
+          target="_blank"
+          >Read more about Naawi Oodena</a
+        >
+        <br />
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/cwM08UJRQR0?si=slvUX4xV_MGuNCLl"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        <br />
+        <img
+          class="left"
+          src="images/TREATY-ONE-DEV-CORP-LOGO-2019.png"
+          alt="logo"
+          width="100px"
+          height="100px" />
+
+        <hr
+          style="
+            border: none;
+            height: 2px;
+            background-color: black;
+            width: 100%;
+          " />
+
+        <section id="contact">
+          <div class="contact1">
+            <h2 id="contact-header" tabindex="12">Contact Us</h2>
+            <form
+              role="form"
+              tabindex="12"
+              aria-labelledby="contact-header"
+              method="POST"
+              action="your-backend-script.php">
+              <label for="name" tabindex="12">Name:</label>
+              <input
+                type="text"
+                tabindex="12"
+                id="name"
+                name="name"
+                aria-describedby="name-desc"
+                required />
+              <small id="name-desc" tabindex="12">Enter your full name.</small>
+              <label for="email" tabindex="12">Email:</label>
+              <input
+                type="email"
+                tabindex="12"
+                id="email"
+                name="email"
+                aria-describedby="email-desc"
+                required />
+              <small id="email-desc" tabindex="12"
+                >Enter a valid email address.</small
+              >
+              <label for="message" tabindex="12">Message:</label>
+              <textarea
+                id="message"
+                tabindex="12"
+                name="message"
+                rows="6"
+                required
+                aria-describedby="message-desc"></textarea>
+              <small id="message-desc" tabindex="12"
+                >Please enter your message.</small
+              >
+              <button type="submit" tabindex="12">Submit</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Nathan Senanayake | Naawi-Oodena Web Project</p>
+    </footer>
+  </body>
+</html>
