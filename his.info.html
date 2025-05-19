@@ -1,15 +1,17 @@
 <!--
   Colour Scheme Overview:
-  - Primary Colour: #3b3b47 (Dark Grey)
-  - Secondary Colour: #5bd183 (Green Accent)
+  - Primary Colour: #f1f1f1 (Light Grey - sidebar background)
+  - Secondary Colour: #dbe9f4 (Light Blue - header background)
+  - Accent Colour: #0f2b46 (Dark Blue - header text)
   - Neutral Colours: #ffffff (White), #000000 (Black)
 
-  The primary dark grey colour gives the website a strong, professional look while maintaining a modern aesthetic. The green accent colour symbolizes growth and opportunity, reflecting the future development of Naawi-Oodena. The use of neutral white and black colours ensures the text is legible, and the layout remains clean, making the content easy to read for all users.
-  
+  Light greys and blues give the site a calm, clean look. Dark blue text stands out for easy reading. White and black keep content clear and simple.
+
   Colour Family Used:
-  - Monochromatic with a complementary green accent for emphasis
-  - Neutral colours for contrast and clarity in text and elements
+  - Pastel colours for calm and clean design
+  - Neutral colours for contrast and readability
 -->
+
 
 <!-- Name: Nathan senanayake 
 
@@ -31,10 +33,12 @@ Date Last Modified: May 15 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Document metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Learn about Naawi-Oodena" />
     <title>Historical info</title>  
+    <!-- Favicon -->
     <link
       rel="icon"
       href="images/TREATY-ONE-DEV-CORP-LOGO-2019.png"
@@ -50,7 +54,7 @@ Date Last Modified: May 15 -->
         min-height: 100vh;
       }
 
-      /* Sidebar */
+      /* Sidebar Styles */
       .sidebar {
         background: #f1f1f1; /* w3-light-grey */
         padding: 1rem;
@@ -72,12 +76,12 @@ Date Last Modified: May 15 -->
         background: #ddd;
       }
 
-      /* Main Content */
+      /* Main Content Styles */
       .content {
         padding: 0;
       }
 
-      /* Header */
+      /* Header Styles */
       .header {
         background: #dbe9f4; /* w3-teal */
         color: white;
@@ -85,21 +89,21 @@ Date Last Modified: May 15 -->
         border: 5px solid #cccccc;
       }
 
-      /* Image */
+      /* Full width image styling */
       .full-width-img {
         width: 100%;
         display: block;
       }
 
-      /* Container */
+      /* Container padding for main content */
       .container {
         padding: 1rem;
       }
 
-      /* Responsive Design: Stack sidebar below on small screens */
+      /* Responsive Design: stack sidebar below content on smaller screens */
       @media (max-width: 768px) {
         body {
-          grid-template-columns: 100%; /* Single column */
+          grid-template-columns: 100%; /* Single column layout */
         }
         .sidebar {
           order: 2; /* Move sidebar below content */
@@ -108,7 +112,7 @@ Date Last Modified: May 15 -->
     </style>
   </head>
   <body>
-    <!-- Sidebar -->
+    <!-- Sidebar navigation menu -->
     <div class="sidebar">
       <h3>Menu</h3>
       <a href="index.html">Home page</a>
@@ -116,53 +120,63 @@ Date Last Modified: May 15 -->
       <a href="Communities.html">Communities info</a>
     </div>
 
+    <!-- Main content area -->
     <div class="content">
       <div class="header">
         <h2 style="color: #0f2b46;">Naawi-Oodena</h2>
       </div>
       <hr />
 
+      <!-- Image of Naawi-Oodena in the future -->
       <img
         src="images/hfuture2ee.png"
         alt="al image of naawi-oodena in the future" height="600px" width="100%" />
-    <!-- Main Content -->
+    <!-- Main Content Container -->
     <div class="container">
       <h2>Historical info</h2>
       <p>Naawi-Oodena</p>
+
+      <!-- Origins and Significance Section -->
       <h2>Origins and Significance</h2>
-<ul>
-  <li><strong>Treaty One</strong>: This treaty was signed on August 3, 1871, at Lower Fort Garry. It was the first numbered treaty in Canada. It was made between the Anishinaabe and Swampy Cree peoples and the Canadian government (the Crown).</li>
-  <li><strong>Land Promises</strong>: The treaty said each family of five people would get 160 acres of land. In return, the First Nations gave up a large part of southern Manitoba to the Crown.</li>
-</ul>
+      <ul>
+        <li><strong>Treaty One</strong>: This treaty was signed on August 3, 1871, at Lower Fort Garry. It was the first numbered treaty in Canada. It was made between the Anishinaabe and Swampy Cree peoples and the Canadian government (the Crown).</li>
+        <li><strong>Land Promises</strong>: The treaty said each family of five people would get 160 acres of land. In return, the First Nations gave up a large part of southern Manitoba to the Crown.</li>
+      </ul>
 
-<h2>Kapyong Barracks Site</h2>
-<ul>
-  <li><strong>Military Use</strong>: The land that is now called Naawi-Oodena used to belong to the Canadian army. It was used by a group called Princess Patricia's Canadian Light Infantry until the year 2004.</li>
-  <li><strong>Legal Challenges</strong>: After the army left the land, the Canadian government tried to sell it. They did not talk to the Treaty One First Nations about it, which caused legal problems.</li>
-  <li><strong>Court Rulings</strong>: In 2009, a judge from Federal Court stopped the government from selling the land because they did not talk to the First Nations. The government tried to appeal (fight the decision), but they lost. In 2015, they stopped all legal action.</li>
-</ul>
+      <!-- Kapyong Barracks Site Section -->
+      <h2>Kapyong Barracks Site</h2>
+      <ul>
+        <li><strong>Military Use</strong>: The land that is now called Naawi-Oodena used to belong to the Canadian army. It was used by a group called Princess Patricia's Canadian Light Infantry until the year 2004.</li>
+        <li><strong>Legal Challenges</strong>: After the army left the land, the Canadian government tried to sell it. They did not talk to the Treaty One First Nations about it, which caused legal problems.</li>
+        <li><strong>Court Rulings</strong>: In 2009, a judge from Federal Court stopped the government from selling the land because they did not talk to the First Nations. The government tried to appeal (fight the decision), but they lost. In 2015, they stopped all legal action.</li>
+      </ul>
 
-<h2>Repatriation and Development</h2>
-<ul>
-  <li><strong>Land Transfer</strong>: On August 30, 2019, a final agreement was signed. The land was given to the seven Treaty One First Nations.</li>
-  <li><strong>Official Repatriation</strong>: On December 16, 2022, the land officially became reserve land. This made it the biggest urban reserve in Canada.</li>
-  <li><strong>Municipal Agreement</strong>: On July 20, 2022, Treaty One First Nations and the City of Winnipeg signed a deal called the Gaawijijigemangit Agreement. It is a Municipal Development & Services Agreement. It makes sure the city will provide services to Naawi-Oodena. The word "Gaawijijigemangit" means "Working Together in Partnership" in the Ojibway language.</li>
-</ul>
+      <!-- Repatriation and Development Section -->
+      <h2>Repatriation and Development</h2>
+      <ul>
+        <li><strong>Land Transfer</strong>: On August 30, 2019, a final agreement was signed. The land was given to the seven Treaty One First Nations.</li>
+        <li><strong>Official Repatriation</strong>: On December 16, 2022, the land officially became reserve land. This made it the biggest urban reserve in Canada.</li>
+        <li><strong>Municipal Agreement</strong>: On July 20, 2022, Treaty One First Nations and the City of Winnipeg signed a deal called the Gaawijijigemangit Agreement. It is a Municipal Development & Services Agreement. It makes sure the city will provide services to Naawi-Oodena. The word "Gaawijijigemangit" means "Working Together in Partnership" in the Ojibway language.</li>
+      </ul>
 
-<h2>Cultural Recognition</h2>
-<ul>
-  <li><strong>Naming Ceremony</strong>: The name "Naawi-Oodena" was given during a special ceremony. It was led by the late Dr. Dave Courchene Jr., a respected Knowledge Keeper from Sagkeeng First Nation.</li>
-  <li><strong>City Honors</strong>: At the signing of the Gaawijijigemangit Agreement, the City of Winnipeg gave the "Keys to the City" to the Chiefs of the seven Treaty One First Nations. This was to honor their leadership and the importance of Naawi-Oodena.</li>
-</ul>
+      <!-- Cultural Recognition Section -->
+      <h2>Cultural Recognition</h2>
+      <ul>
+        <li><strong>Naming Ceremony</strong>: The name "Naawi-Oodena" was given during a special ceremony. It was led by the late Dr. Dave Courchene Jr., a respected Knowledge Keeper from Sagkeeng First Nation.</li>
+        <li><strong>City Honors</strong>: At the signing of the Gaawijijigemangit Agreement, the City of Winnipeg gave the "Keys to the City" to the Chiefs of the seven Treaty One First Nations. This was to honor their leadership and the importance of Naawi-Oodena.</li>
+      </ul>
 
-<h2>Future Outlook</h2>
-<ul>
-  <li><strong>Economic Potential</strong>: Naawi-Oodena is expected to become a major project that will bring a lot of investment, help Winnipeg grow, and become a good example for other urban reserves in Canada.</li>
-</ul>
+      <!-- Future Outlook Section -->
+      <h2>Future Outlook</h2>
+      <ul>
+        <li><strong>Economic Potential</strong>: Naawi-Oodena is expected to become a major project that will bring a lot of investment, help Winnipeg grow, and become a good example for other urban reserves in Canada.</li>
+      </ul>
     </div>
   </div>
+
+  <!-- Footer with copyright -->
   <footer style="text-align: center; background-color: white; padding: 5px;">
-<p>&copy; 2025 Nathan Senanayake | Naawi-Oodena Web Project</p>
-</footer>
-</body>
+    <p>&copy; 2025 Nathan Senanayake | Naawi-Oodena Web Project</p>
+  </footer>
+  </body>
 </html>

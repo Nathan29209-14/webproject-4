@@ -1,15 +1,18 @@
 <!--
-  Colour Scheme Overview:
-  - Primary Colour: #3b3b47 (Dark Grey)
-  - Secondary Colour: #5bd183 (Green Accent)
-  - Neutral Colours: #ffffff (White), #000000 (Black)
+  Color Scheme Overview:
+  - Main Color: #f1f1f1 (used for the sidebar background)
+  - Accent Color: #dbe9f4 (used in the header)
+  - Neutral Colors: white (#ffffff) and black (#000000)
 
-  The primary dark grey colour gives the website a strong, professional look while maintaining a modern aesthetic. The green accent colour symbolizes growth and opportunity, reflecting the future development of Naawi-Oodena. The use of neutral white and black colours ensures the text is legible, and the layout remains clean, making the content easy to read for all users.
-  
-  Colour Family Used:
-  - Monochromatic with a complementary green accent for emphasis
-  - Neutral colours for contrast and clarity in text and elements
+  The light grey gives the page a clean and soft look. 
+  The light blue header stands out and gives a calm feeling. 
+  White and black make sure the text is easy to read and the layout stays clear.
+
+  Color Style:
+  - Mostly light and soft colors with a blue highlight
+  - Neutral colors help keep everything readable and simple
 -->
+
 
 <!-- Name: Nathan senanayake 
 
@@ -21,189 +24,203 @@ School: Ptc
 
 Date Last Modified: May 15 -->
 
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Learn about Naawi-Oodena" />
-    <title>Communities info</title>
+    <!-- Contains meta info and resources for the page -->
+    <meta charset="UTF-8" /> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes the page responsive on all devices -->
+    <meta name="description" content="Learn about Naawi-Oodena" /> <!-- Describes the page for search engines -->
+    <title>Communities info</title> <!-- Sets the title in the browser tab -->
+
+    <!-- Adds a favicon (small icon in the browser tab) -->
     <link
       rel="icon"
       href="images/TREATY-ONE-DEV-CORP-LOGO-2019.png"
       sizes="128x128"
       type="image/png" />
+
     <style>
-      /* Reset and base styles */
+      /* Styles for the whole page */
       body {
-        margin: 0;
-        font-family: Arial, sans-serif;
+        margin: 0; /* Removes default margin */
+        font-family: Arial, sans-serif; /* Sets font */
       }
 
-      /* Sidebar styles */
+      /* Sidebar container on the left side */
       .sidebar {
-        background-color: #f1f1f1; /* w3-light-grey */
-        width: 25%;
-        position: fixed;
-        height: 100%;
-        overflow: auto;
+        background-color: #f1f1f1;
+        width: 25%; /* Takes up 25% of the screen width */
+        position: fixed; /* Keeps it in place while scrolling */
+        height: 100%; /* Full height */
+        overflow: auto; /* Adds scroll if needed */
       }
 
+      /* Sidebar heading style */
       .sidebar h3 {
         padding: 16px;
         margin: 0;
         background-color: inherit;
       }
 
+      /* Sidebar link styles */
       .sidebar a {
-        display: block;
+        display: block; /* Makes links fill the full width */
         padding: 8px 16px;
-        text-decoration: none;
+        text-decoration: none; /* Removes underline */
         color: black;
       }
 
+      /* Changes background color when hovering on a link */
       .sidebar a:hover {
-        background-color: #ddd; /* Hover effect */
+        background-color: #ddd;
       }
 
-      /* Page content */
+      /* Main content area beside the sidebar */
       .content {
-        margin-left: 25%; /* Same as sidebar width */
+        margin-left: 25%; /* Pushes it right to avoid overlap with sidebar */
       }
 
-      /* Header styles */
+      /* Top header of the content area */
       .header {
-        background: #dbe9f4; /* w3-teal */
+        background: #dbe9f4;
         color: white;
         padding: 16px;
         border: 5px solid #cccccc;
       }
-      /* Container padding */
+
+      /* Adds padding to inner content */
       .container {
         padding: 16px;
       }
 
-      /* Full-width image */
+      /* Makes images stretch across the container */
       img {
         width: 100%;
-        display: block;
+        display: block; /* Removes extra spacing below image */
       }
     </style>
   </head>
   <body>
-    <!-- Sidebar -->
+    <!-- Sidebar section with navigation links -->
     <div class="sidebar">
-      <h3>Menu</h3>
-      <a href="index.html">Home page</a>
-      <a href="Communities.html">Go back</a>
-      <a href="Historical.html">Historical info</a>
+      <h3>Menu</h3> <!-- Sidebar heading -->
+      <a href="index.html">Home page</a> <!-- Link to the homepage -->
+      <a href="Communities.html">Go back</a> <!-- Link to the communities page -->
+      <a href="Historical.html">Historical info</a> <!-- Link to historical info page -->
     </div>
 
+    <!-- Main content area -->
     <div class="content">  
+      <!-- Header section -->
       <div class="header">
-        <!-- The h2 element represents a section heading. -->
-        <h2 style="color: #0f2b46">Naawi-Oodena</h2>
+        <h2 style="color: #0f2b46">Naawi-Oodena</h2> <!-- Main heading -->
       </div>
-      <hr />
+      <hr /> <!-- Horizontal line separator -->
 
+      <!-- Banner image of Naawi-Oodena -->
       <img
         src="images/ch3.png"
         alt="al image of naawi-oodena in the future"
         height="550px"
         width="100%" />
 
+      <!-- Text and content container -->
       <div class="container">
-        <h2>Communities info</h2>
-        <p>Naawi-Oodena</p>
-        <h2>Naawi-Oodena Urban Reserve</h2>
-<ul>
-  <li><strong>Meaning</strong>: "Naawi-Oodena" means <em>"Centre of the Heart and Community"</em> in the Anishinaabe language.</li>
-  <li><strong>Location</strong>: It is in southwest Winnipeg, close to the River Heights and Tuxedo areas.</li>
-  <li><strong>Size</strong>: The land is 160 acres, making it the biggest urban reserve in Canada.</li>
-  <li><strong>Leadership</strong>: The land is shared and run together by these seven Treaty One First Nations:
-    <ul>
-      <li>Brokenhead Ojibway Nation</li>
-      <li>Long Plain First Nation</li>
-      <li>Peguis First Nation</li>
-      <li>Roseau River Anishinaabe First Nation</li>
-      <li>Sagkeeng First Nation</li>
-      <li>Sandy Bay Ojibway First Nation</li>
-      <li>Swan Lake First Nation</li>
-    </ul>
-  </li>
-</ul>
+        <h2>Communities info</h2> <!-- Section heading -->
+        <p>Naawi-Oodena</p> <!-- Paragraph text -->
 
-<h2>Community Features</h2>
-<ul>
-  <li><strong>Vision</strong>: The goal is to build a strong and welcoming place that respects Indigenous culture and helps the economy grow.</li>
-  <li><strong>Amenities</strong>:
-    <ul>
-      <li>Different kinds of homes for families, seniors, and individuals.</li>
-      <li>Shops, restaurants, and local services.</li>
-      <li>Lots of green areas like parks and gardens.</li>
-      <li>Schools and cultural centers.</li>
-      <li>Health and wellness services.</li>
-      <li>Places for fun, like sports fields and walking paths.</li>
-      <li>Eco-friendly and accessible public areas.</li>
-    </ul>
-  </li>
-</ul>
+        <h2>Naawi-Oodena Urban Reserve</h2> <!-- Section heading for reserve info -->
+        <ul> <!-- Unordered list of info points -->
+          <li><strong>Meaning</strong>: "Naawi-Oodena" means <em>"Centre of the Heart and Community"</em> in the Anishinaabe language.</li>
+          <li><strong>Location</strong>: It is in southwest Winnipeg, close to the River Heights and Tuxedo areas.</li>
+          <li><strong>Size</strong>: The land is 160 acres, making it the biggest urban reserve in Canada.</li>
+          <li><strong>Leadership</strong>: The land is shared and run together by these seven Treaty One First Nations:
+            <ul> <!-- Nested list for First Nations -->
+              <li>Brokenhead Ojibway Nation</li>
+              <li>Long Plain First Nation</li>
+              <li>Peguis First Nation</li>
+              <li>Roseau River Anishinaabe First Nation</li>
+              <li>Sagkeeng First Nation</li>
+              <li>Sandy Bay Ojibway First Nation</li>
+              <li>Swan Lake First Nation</li>
+            </ul>
+          </li>
+        </ul>
 
-<h2>Housing Options</h2>
-<ul>
-  <li><strong>Types of Homes</strong>:
-    <ul>
-      <li>Houses for one family with yards.</li>
-      <li>Townhouses that are easy to care for.</li>
-      <li>Apartment buildings with different sizes of units.</li>
-      <li>Affordable homes for all income levels.</li>
-      <li>Seniors’ homes with special features for easier living.</li>
-    </ul>
-  </li>
-  <li><strong>Design Philosophy</strong>: Homes will look good next to other neighborhoods and will include Indigenous design and eco-friendly building ideas.</li>
-</ul>
+        <h2>Community Features</h2> <!-- Section about community plans -->
+        <ul>
+          <li><strong>Vision</strong>: The goal is to build a strong and welcoming place that respects Indigenous culture and helps the economy grow.</li>
+          <li><strong>Amenities</strong>:
+            <ul>
+              <li>Different kinds of homes for families, seniors, and individuals.</li>
+              <li>Shops, restaurants, and local services.</li>
+              <li>Lots of green areas like parks and gardens.</li>
+              <li>Schools and cultural centers.</li>
+              <li>Health and wellness services.</li>
+              <li>Places for fun, like sports fields and walking paths.</li>
+              <li>Eco-friendly and accessible public areas.</li>
+            </ul>
+          </li>
+        </ul>
 
-<h2>Business & Shopping</h2>
-<ul>
-  <li><strong>Commercial Spaces</strong>:
-    <ul>
-      <li>Grocery stores and food markets.</li>
-      <li>Places to eat like restaurants and cafes.</li>
-      <li>Shops and services.</li>
-      <li>Stores owned by Indigenous people.</li>
-      <li>Office space and a business center for the community.</li>
-      <li>Tourist spots focused on Indigenous culture.</li>
-    </ul>
-  </li>
-  <li><strong>Economic Impact</strong>: These businesses will give people jobs and provide things the community needs.</li>
-</ul>
+        <h2>Housing Options</h2> <!-- Section about housing -->
+        <ul>
+          <li><strong>Types of Homes</strong>:
+            <ul>
+              <li>Houses for one family with yards.</li>
+              <li>Townhouses that are easy to care for.</li>
+              <li>Apartment buildings with different sizes of units.</li>
+              <li>Affordable homes for all income levels.</li>
+              <li>Seniors homes with special features for easier living.</li>
+            </ul>
+          </li>
+          <li><strong>Design Philosophy</strong>: Homes will look good next to other neighborhoods and will include Indigenous design and eco-friendly building ideas.</li>
+        </ul>
 
-<h2>Parks & Recreation</h2>
-<ul>
-  <li><strong>Outdoor Spaces</strong>:
-    <ul>
-      <li>Parks with play areas for kids.</li>
-      <li>Community gardens and green paths.</li>
-      <li>Sports fields and courts.</li>
-      <li>Walking and biking trails.</li>
-      <li>Places for cultural events and gatherings.</li>
-    </ul>
-  </li>
-  <li><strong>Recreation Facilities</strong>:
-    <ul>
-      <li>Community center with programs and events.</li>
-      <li>Spaces for youth activities.</li>
-      <li>Fitness and health centers.</li>
-      <li>Programs for learning about Indigenous culture.</li>
-      <li>Rooms for meetings and community events.</li>
-    </ul>
-  </li>
-  <li><strong>Purpose</strong>: These places are made to improve people’s lives by giving them areas to relax, play, and connect with others.</li>
-</ul>
+        <h2>Business & Shopping</h2> <!-- Section about businesses -->
+        <ul>
+          <li><strong>Commercial Spaces</strong>:
+            <ul>
+              <li>Grocery stores and food markets.</li>
+              <li>Places to eat like restaurants and cafes.</li>
+              <li>Shops and services.</li>
+              <li>Stores owned by Indigenous people.</li>
+              <li>Office space and a business center for the community.</li>
+              <li>Tourist spots focused on Indigenous culture.</li>
+            </ul>
+          </li>
+          <li><strong>Economic Impact</strong>: These businesses will give people jobs and provide things the community needs.</li>
+        </ul>
+
+        <h2>Parks & Recreation</h2> <!-- Section about parks -->
+        <ul>
+          <li><strong>Outdoor Spaces</strong>:
+            <ul>
+              <li>Parks with play areas for kids.</li>
+              <li>Community gardens and green paths.</li>
+              <li>Sports fields and courts.</li>
+              <li>Walking and biking trails.</li>
+              <li>Places for cultural events and gatherings.</li>
+            </ul>
+          </li>
+          <li><strong>Recreation Facilities</strong>:
+            <ul>
+              <li>Community center with programs and events.</li>
+              <li>Spaces for youth activities.</li>
+              <li>Fitness and health centers.</li>
+              <li>Programs for learning about Indigenous culture.</li>
+              <li>Rooms for meetings and community events.</li>
+            </ul>
+          </li>
+          <li><strong>Purpose</strong>: These places are made to improve peoples lives by giving them areas to relax, play, and connect with others.</li>
+        </ul>
       </div>
     </div>
+
+    <!-- Footer section at the bottom -->
     <footer style="text-align: center; background-color: white; padding: 5px;">
-<p>&copy; 2025 Nathan Senanayake | Naawi-Oodena Web Project</p>
-</footer>
+      <p>&copy; 2025 Nathan Senanayake | Naawi-Oodena Web Project</p> <!-- Copyright -->
+    </footer>
   </body>
 </html>

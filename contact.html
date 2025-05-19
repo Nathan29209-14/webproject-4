@@ -1,19 +1,29 @@
 <!DOCTYPE html>
+<!-- Tells the browser this is an HTML5 document -->
 <html lang="en-us">
   <head>
+    <!-- Sets character encoding for text -->
     <meta charset="UTF-8" />
+    <!-- Makes the page work well on phones and tablets -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Short description of the page -->
     <meta name="description" content="Naawi-Oodena." />
+    <!-- Title shown in the browser tab -->
     <title>Contact Form</title>
+    <!-- Page icon (favicon) shown in the browser tab -->
     <link
       rel="icon"
       href="images/TREATY-ONE-DEV-CORP-LOGO-2019.png"
       sizes="128x128"
       type="image/png" />
+    <!-- Link to the external CSS file for styling -->
     <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
+    <!-- Main heading of the page -->
     <h1 tabindex="12" style="color: rgb(86, 86, 86)">Contact Form</h1>
+
+    <!-- Input for user's first name -->
     <input
       type="text"
       tabindex="12"
@@ -21,6 +31,8 @@
       placeholder="First name"
       autocomplete="off"
       required />
+
+    <!-- Input for user's last name -->
     <input
       type="text"
       tabindex="12"
@@ -28,6 +40,8 @@
       placeholder="Last name"
       autocomplete="off"
       required />
+
+    <!-- Input for user's email address -->
     <input
       type="email"
       tabindex="12"
@@ -35,6 +49,8 @@
       placeholder="Email address"
       autocomplete="off"
       required />
+
+    <!-- Text area for the user's message -->
     <textarea
       rows="5"
       tabindex="12"
@@ -43,7 +59,10 @@
       placeholder="Enter text"
       autocomplete="off"
       required></textarea>
+
+    <!-- Form that sends the user back to the home page after clicking the button -->
     <form action="index.html">
+      <!-- Button to submit the form -->
       <button type="submit" tabindex="12">Send message</button>
     </form>
   </body>
