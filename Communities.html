@@ -97,7 +97,7 @@ Date Last Modified: May 15 -->
     <br />
 
     <!-- Main content section -->
-    <div class="content">
+    <div class="content"> <!--class name content-->
       <!-- Section with background color and title -->
       <div style="background-color: whitesmoke">
         <h2 class="header-title" tabindex="12">Communities</h2>
@@ -170,6 +170,7 @@ Date Last Modified: May 15 -->
     <br />
 
     <!-- Embedded YouTube video -->
+      <!--iframe element represents a nested browsing context.-->
     <iframe
       width="560"
       height="315"
@@ -198,11 +199,15 @@ Date Last Modified: May 15 -->
       <div class="contact1">
         <h2 id="contact-header" tabindex="12">Contact Us</h2>
         <!-- Contact form -->
+          <!--The form element represents editable values that can be submitted to a server for processing.
+
+-->
         <form
           role="form"
           tabindex="12"
           aria-labelledby="contact-header"
           method="POST">
+          <!--label element represents a caption in a user interface.-->
           <label for="name" tabindex="12">Name:</label>
           <input
             type="text"
@@ -224,8 +229,9 @@ Date Last Modified: May 15 -->
           <small id="email-desc" tabindex="12"
             >Enter a valid email address.</small
           >
-
+<!--label element represents a caption in a user interface-->
           <label for="message" tabindex="12">Message:</label>
+          <!-- textarea element represents a multiline plain text -->
           <textarea
             id="message"
             tabindex="12"
@@ -233,6 +239,7 @@ Date Last Modified: May 15 -->
             rows="6"
             required
             aria-describedby="message-desc"></textarea>
+            <!-- small element represents side comments such as small print-->
           <small id="message-desc" tabindex="12"
             >Please enter your message.</small
           >
